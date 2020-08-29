@@ -1,0 +1,25 @@
+{
+  "name": "hsbp-fennec-ddns",
+  "version": "1.0.0",
+  "description": "ping the fennec api with the ip address",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeriTheFox/hsbp-fennec-ddns.git"
+  },
+  "author": "Geri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeriTheFox/hsbp-fennec-ddns/issues"
+  },
+  "homepage": "https://github.com/GeriTheFox/hsbp-fennec-ddns#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-cron": "^2.0.3",
+    "public-ip": "^4.0.2",
+    "request": "^2.88.2"
+  }
+}
